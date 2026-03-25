@@ -1,0 +1,15 @@
+com\example\rewards\RewardsApplication.class
+com\example\rewards\dto\CreateCustomerRequest.class
+com\example\rewards\jpa\CustomerEntity.class
+com\example\rewards\jpa\TransactionEntity.class
+com\example\rewards\model\MonthlyPoints.class
+com\example\rewards\dto\CreateOrderRequest.class
+com\example\rewards\controller\OrderController.class
+com\example\rewards\jpa\TransactionJpaRepository.class
+com\example\rewards\jpa\CustomerJpaRepository.class
+com\example\rewards\service\RewardsService.class
+com\example\rewards\config\GlobalExceptionHandler.class
+com\example\rewards\controller\CustomerController.class
+com\example\rewards\config\DataLoader.class
+com\example\rewards\controller\RewardsController.class
+com\example\rewards\model\RewardSummary.class
