@@ -1,13 +1,11 @@
 
-# Rewards API — Full JPA + JWT Security + Tests
+# Rewards API
 
 This project demonstrates a production-style setup:
 - Spring Data **JPA** (Hibernate)
 - **Many-to-One**: Transaction → Customer, with One-to-Many backref on Customer
-- **JWT Security** using Spring Security Resource Server (HMAC HS256)
 - **H2** DB for dev/test
-- **Unit & Integration tests**: `@DataJpaTest`, `@WebMvcTest` + `jwt()`, and end-to-end token flow
-
+- **Unit & Integration tests**: `@DataJpaTest`
 ## Run
 ```bash
 mvn spring-boot:run
